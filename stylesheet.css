@@ -48,6 +48,16 @@ body{
 	margin: 10px 5px 10px 150px; 
 }
 
-#lucky{
-	margin: 10px 0 10px 5px;
+#search, #lucky{
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+
+	border: 1px solid #CCCCCC;
+	padding: 5px 10px;
+}
+
+#button{
+	font-size: 1em;
+	font-family: Tahoma, Verdana, Times, Serif;
 }
