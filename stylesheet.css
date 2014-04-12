@@ -44,6 +44,10 @@ body{
 	font-family: Tahoma, Verdana, Times, Serif;
 }
 
-#search, #lucky{
-	margin: auto;
+#search{
+	margin: 10px 5px 10px 150px; 
+}
+
+#lucky{
+	margin: 10px 0 10px 5px;
 }
