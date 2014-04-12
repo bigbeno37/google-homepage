@@ -19,13 +19,13 @@ body{
 	background-color: white;
 	min-height: 100%;
 	width: 100%;
-	padding: 100px 0px;
 }
 
 #content{
 	height: 250px;
 	width: 538px;
 	margin: auto;
+	margin: 200px auto 50px auto;
 }
 
 #footer{
@@ -35,4 +35,15 @@ body{
 	clear: both;
 	position: absolute;
 	bottom: 0px;
+}
+
+#textbox{
+	width: 538px;
+	height: 1.4em;
+	font-size: 1.4em;
+	font-family: Tahoma, Verdana, Times, Serif;
+}
+
+#search, #lucky{
+	margin: auto;
 }
