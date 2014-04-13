@@ -3,6 +3,16 @@ body{
 	min-width: 100%;
 }
 
+li{
+	float: left;
+}
+
+#right{
+	float: right;
+	margin-right: 25px;
+	font-weight: bold;
+}
+
 #master{
 	height: 100%;
 	width: 100%;
@@ -10,9 +20,25 @@ body{
 }
 
 #header{
-	background-color: #303030;
-	height: 50px;
+	background-color: #2d2d2d;
+	height: 1.7em;
 	width: 100%;
+}
+
+#menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#menuitem{
+	display: block;
+	margin: 0 8px;
+	text-decoration: none;
+	color: white;
+	font: 13px/27px Arial;
+	color: #d6d6d6;
 }
 
 #content_space{
@@ -58,6 +84,20 @@ body{
 }
 
 #button{
-	font-size: 1em;
+	font-size: 11px;
 	font-family: Tahoma, Verdana, Times, Serif;
+	font-weight: bold;
+}
+
+#search:active, #lucky:active{
+	background-color: #E0E0E0;
+}
+
+#current{
+	color: white;
+	font-weight: bold;
+}
+
+#signin{
+	font-weight: bold;
 }
